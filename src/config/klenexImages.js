@@ -28,11 +28,12 @@ export const klenexImages = {
   sections: {
     careInMotion: photo('photo-1600566753190-17f0baa2a6c3', 1800),
     quality: photo('photo-1581578731548-c64695cc6952'),
-    experience: photo('photo-1600566753086-00f18fb6b3ea'),
+    experience: '/images/klenex/editorial/ChatGPT%20Image%20Sep%2024,%202026,%2012_45_01%20PM.png',
+    benefits: '/images/klenex/editorial/ChatGPT%20Image%20Sep%2024,%202026,%2012_50_37%20PM.png',
   },
   editorial: {
     kitchenCare: '/images/klenex/editorial/ChatGPT%20Image%20Sep%2024,%202026,%2011_17_26%20AM.png',
+    packageCare: '/images/klenex/editorial/ChatGPT%20Image%20Sep%2024,%202026,%2012_13_26%20PM.png',
     deepCleaning: photo('photo-1584622650111-993a426fbf0a', 1600),
-    humanConnection: photo('photo-1600566753086-00f18fb6b3ea', 1800),
   },
 }

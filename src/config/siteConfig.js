@@ -7,8 +7,8 @@ export const siteConfig = {
     white: '#FFFFFF',
   },
   contact: {
-    phone: 'Phone details coming soon',
-    email: 'Email details coming soon',
+    phone: '9591718961',
+    email: 'klenex067@gmail.com',
     location: 'Bengaluru, India',
   },
   social: {

@@ -5,7 +5,6 @@ import EnquiryModal from './components/EnquiryModal'
 import Footer from './components/Footer'
 import {
   DeepCleaningSection,
-  HumanConnectionSection,
   KitchenEditorialSection,
 } from './components/PhotographySections'
 import {
@@ -43,7 +42,6 @@ function App() {
         <DeepCleaningSection />
         <Packages onRequest={openEnquiry} />
         <HowItWorks />
-        <HumanConnectionSection />
         <Quality />
         <Experience />
         <Testimonials />

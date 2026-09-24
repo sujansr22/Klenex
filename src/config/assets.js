@@ -10,7 +10,7 @@ export const assets = {
     combined: klenexImages.sections.careInMotion,
   },
   packageImages: {
-    kitchen: klenexImages.services.kitchen,
+    kitchen: klenexImages.editorial.packageCare,
     bathroom: klenexImages.services.bathroom,
     laundry: klenexImages.services.laundry,
     ironing: klenexImages.services.ironing,
