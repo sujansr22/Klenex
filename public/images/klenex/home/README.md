@@ -1,0 +1,1 @@
+Place modern Indian apartment, kitchen, bathroom, bedroom, balcony, utility, and living-room photography here.

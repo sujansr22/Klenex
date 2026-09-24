@@ -1,0 +1,1 @@
+Place the large editorial campaign images here: everyday care, kitchen care, section bridges, deep cleaning, cleaning details, human connection, and full-width lifestyle photography. Update the matching URLs in src/config/klenexImages.js.
