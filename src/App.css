@@ -186,10 +186,13 @@ h1 em, h2 em { color: var(--peach); font-weight: 500; }
 .modal-intro { max-width: 390px; margin-bottom: 22px; color: var(--muted); font-size: var(--text-base); line-height: 1.65; }
 .selection-chip { display: flex; justify-content: space-between; padding: 14px 16px; margin-bottom: 24px; color: var(--sapphire); background: var(--peach); font-size: var(--label-size); font-weight: 700; letter-spacing: .03em; text-transform: uppercase; }
 form label { display: block; margin-bottom: 15px; color: var(--sapphire); font-size: var(--label-size); font-weight: 700; letter-spacing: .06em; text-transform: uppercase; }
-form input, form textarea { display: block; width: 100%; margin-top: 7px; padding: 13px; border: 1px solid var(--line); border-radius: 0; outline: 0; color: var(--sapphire); background: var(--white); font-size: var(--text-base); font-weight: 400; letter-spacing: 0; text-transform: none; transition: border .2s; }
-form input:focus, form textarea:focus { border-color: var(--sapphire); }
+form input, form select, form textarea { display: block; width: 100%; margin-top: 7px; padding: 13px; border: 1px solid var(--line); border-radius: 0; outline: 0; color: var(--sapphire); background: var(--white); font-size: var(--text-base); font-weight: 400; letter-spacing: 0; text-transform: none; transition: border .2s; }
+form input:focus, form select:focus, form textarea:focus { border-color: var(--sapphire); }
+form select { appearance: auto; }
 .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0 18px; }
 .modal form .button { margin-top: 8px; }
+.modal form .button:disabled { cursor: wait; opacity: .65; }
+.form-error { margin: 0 0 12px; color: #a5263c; font-size: var(--text-sm); line-height: 1.5; }
 .modal-success { padding: 40px 20px 20px; text-align: center; }
 .modal-success .eyebrow { color: var(--sapphire); }
 .modal-success h2 { margin-bottom: 15px; }
